@@ -1,0 +1,7 @@
+<!--<async-fragment name="questionsList" data-provider="data.provider" var="data">-->
+    <div for="question in data.questions; status-var=loop">
+        <div id="${question.id}">
+            <include template="${question.template}" template-data="question"/>
+        </div>
+    </div>
+<!--</async-fragment>-->
